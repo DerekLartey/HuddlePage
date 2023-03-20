@@ -1,0 +1,792 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    float: right;
+    border: 1px solid hsl(321, 100%, 78%);
+    background-color: #fff;
+    color: hsl(321, 100%, 78%);
+    padding: 8px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.button:hover{
+    background-color: hsl(321, 100%, 78%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.para{
+    text-align: center;
+    width: 440px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.btn{
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px 55px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+
+.svg{
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.svgimg{
+    margin-top: 60px;
+    width: 80%;
+}
+
+.followers{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    text-align: center;
+    padding: 70px 30px 0 30px;
+}
+
+.peopleicon{
+    width: 50px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.comm{
+    width: 140px;
+    margin: 0;
+    color: hsl(191, 6%, 51%);
+}
+
+.commnum{
+    width: 40px;
+    font-size: 80px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.mil{
+    width: 40px;
+    font-size: 80px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.iconone{
+    width: 50%;
+}
+
+.icontwo{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.messageicon{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.mess{
+    float: left;
+    margin-top: 0;
+    color: hsl(191, 6%, 51%);
+}
+
+.desleft{
+    background-color: hsl(207, 100%, 98%);
+    width: 50%;
+    padding-top: 80px;
+}
+
+.generate{
+    padding-left: 100px;
+    padding-right: 170px;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.paraleft{
+    height: 50px;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 100px;
+    font-family: sans-serif;
+}
+
+.toparchdesign{
+    height: 150px;
+}
+
+.midarchdesign{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+}
+
+.botarch{
+    width: 100vw;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.ill{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: hsl(207, 100%, 98%);
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.topdes{
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+}
+
+.illustration{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 500px;
+}
+
+.illtwo{
+    width: 500px;
+    margin: 100px 100px 50px 100px;
+}
+
+.illthree{
+    width: 50%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.you{
+    padding: 20px 110px 20px 130px ;
+}
+
+.secmid{
+    background-color: hsl(207, 100%, 98%);
+}
+
+.users{
+    height: 80px;
+    margin-top: 0px;
+    padding-top: 80px;
+    background-color: hsl(207, 100%, 98%);
+}
+
+.ready{
+    text-align: center;
+    margin-top: 0;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+div .ready{
+    padding: 50px 0;
+}
+
+.started{
+    padding: 15px 60px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.started:hover{
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+
+.footertop{
+    width: 100vw;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerbottom{
+    background-color: hsl(192, 100%, 9%);
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footone{
+    width: 50%;
+    color: #fff;
+    padding-left: 50px;
+    line-height: 1.4;
+}
+
+.foottwo{
+    width: 50%;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.bottomlogo{
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.bottomhuddle{
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+.newsletter{
+    margin-top: 20px;
+    margin-right: 350px;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.input{
+    padding: 10px 80px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe{
+    padding: 12px 35px;
+    margin: 0 0 20px 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe:hover{
+    background-color: #fff;
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+.lorem{
+    width: 350px;
+    font-family: sans-serif;
+}
+
+.phoneimg{
+    padding-right: 10px;
+}
+
+.emailimg{
+    padding-right: 10px;
+}
+
+.flow{
+    font-family: sans-serif;
+}
+
+.him{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1110px){
+    .svgimg{
+        margin-top: 60px;
+        width: 800px;
+    }
+
+    .newsletter{
+        margin-top: 20px;
+        margin-right: 350px;
+        line-height: 1.4;
+        width: 300px;
+    }
+
+    .foottwo{
+        width: 300px;
+        color: #fff;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .ill{
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        background-color: hsl(207, 100%, 98%);
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .illtwo{
+        width: 300px;
+        margin: 120px 100px 10px 25px;
+    }
+
+    .illone{
+        width: 50%;
+    }
+
+    .flow{
+        font-size: 25px;
+    }
+
+    .illthree{
+        width: 50%;
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    .you{
+        padding: 10px 60px 20px 60px ;
+    }
+
+    .svgimg{
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .generate{
+        padding-left: 30px;
+        padding-right: 70px;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .input{
+        padding: 10px 40px;
+        margin-top: 25px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .newsletter{
+        margin-top: 20px;
+        float: left;
+        line-height: 1.2;
+        word-spacing: .5px;
+        width: 200px;
+    }
+
+    .subscribe{
+        padding: 12px 35px;
+        margin: 20px 0 20px 40px;
+        background-color: hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .foottwo{
+        width: 230px;
+        color: #fff;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .generate{
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.4;
+    }
+
+    .paraleft{
+        height: 50px;
+        width: 250px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 10px;
+    }
+
+    .ill{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        background-color: hsl(207, 100%, 98%);
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .followers{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        text-align: center;
+        padding: 10px 30px 0 30px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .input{
+        padding: 15px 80px;
+        margin-top: 25px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .logo{
+        margin: 20px 10px;
+        width: 100px;
+    }
+
+    .button{
+        float: right;
+        border: 1px solid hsl(321, 100%, 78%);
+        background-color: #fff;
+        color: hsl(321, 100%, 78%);
+        padding: 4px 10px;
+        border-radius: 20px;
+        margin: 16px 10px;
+    }
+
+    .heading{
+        text-align: center;
+        margin: 70px auto;
+        margin-bottom: 0;
+        font-size: 25px;
+        padding: 0 30px;
+    }
+
+    .para{
+        text-align: center;
+        width: 320px;
+        margin: 30px auto;
+    }
+
+    .btn{
+        background-color: hsl(322, 100%, 66%);
+        padding: 15px 55px;
+        border-radius: 25px;
+        border: none;
+        margin-top: 40px;
+        color: #fff;
+    }
+
+    .svgimg{
+        margin: 60px auto;
+        padding: 0 10px;
+        width: 300px;
+    }
+
+    .followers{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 30px 0 30px;
+    }
+
+    .iconone{
+        margin: 10px auto;
+    }
+
+    .icontwo{
+        width: 50%;
+        padding-left: 10px;
+        margin: 100px auto;
+    }
+
+    .mess{
+        float: left;
+        margin-top: 0;
+    }
+
+    .commnum{
+        width: 40px;
+        font-size: 60px;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+
+    .mil{
+        width: 40px;
+        font-size: 60px;
+        margin-bottom: 0px;
+        margin-top: 45px;
+        font-weight: bold;
+    }
+
+    .comm{
+        width: 140px;
+        margin: 5px auto;
+        margin: 0;
+    }
+
+    .peopleicon{
+        width: 40px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .messageicon{
+        float: left;
+        width: 40px;
+    }
+
+    .midarchdesign{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: hsl(207, 100%, 98%);
+        width: 100%;
+    }
+
+    .mess{
+        float: left;
+        width: 50px;
+        margin-left: 40px;
+    }
+
+    .paraleft{
+        height: 30px;
+        width: 150px;
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .topdes{
+        width: 100%;
+        height: 50px;
+    }
+    
+    .botarch{
+        width: 100vw;
+        height: 100px;
+    }
+
+    .ill{
+        width: 200px;
+        height: 200px;
+        background-color: hsl(207, 100%, 98%);
+        margin: 40px 60px 20px 100px;
+    }
+
+    .ready{
+        font-size: 27px;
+        margin-top: 50px;
+    }
+
+    .generate{
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.4;
+        font-size: 16px;
+        margin: 40px auto;
+        margin-bottom: 30px;
+        width: 300px;
+    }
+
+    .started{
+        padding: 15px 40px;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 25px;
+        border: none;
+        margin-bottom: 150px;
+        margin-top: 50px;
+        color: #fff;
+    }
+
+    .desleft{
+        background-color: hsl(207, 100%, 98%);
+        width: 330px;
+        margin: 10px auto;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .desright{
+        width: 0 auto;
+    }
+
+    .illtwo{
+        width: 160px;
+        height: 160px;
+        margin: 60px 30px;
+        width: 80vw;
+    }
+
+    .you{
+        padding: 0;
+        font-size: 16px;
+        width: 300px;
+        margin: 10px 20px;
+    }
+
+    .flow{
+        font-size: 20px;
+    }
+
+    .illthree{
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .flow{
+        font-size: 25px;
+        width: 250px;
+        margin: 0 40px;
+        text-align: center;
+    }
+
+    .footone{
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        color: #fff;
+        padding-left: 0;
+        line-height: 1.4;
+    }
+
+    .foottwo{
+        width: 50%;
+        color: #fff;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .news{
+        font-size: 18px;
+    }
+
+    .illustration{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin: 70px auto;
+    }
+
+    .newsletter{
+        margin-top: 20px;
+        margin-right: 350px;
+        line-height: 1.4;
+        width: 300px;
+    }
+
+    .bottomhuddle{
+        display: inline-block;
+        margin-top: 70px;
+        margin-left: 10px;
+        padding-bottom: 0;
+        font-size: 40px;
+    }
+
+    .bottomlogo{
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        width: 40px;
+    }
+
+    .lorem{
+        font-size: 14px;
+        width: 300px;
+        margin: 0 auto;
+        line-height: 1.4;
+    }
+
+    .phoneimg{
+        padding-right: 15px;
+        width: 18px;
+    }
+
+    .footertop{
+        height: 50px;
+    }
+
+    .footerbottom{
+        background-color: hsl(192, 100%, 9%);
+        width: 100vw;
+        height: 750px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .subscribe{
+        padding: 12px 35px;
+        margin: 10px 10px 20px 170px;
+        background-color: hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .emailimg{
+        padding-right: 15px;
+        width: 18px;
+    }
+
+    .bottomarchdesign .botarch{
+        height: 60px;
+    }
+}
+/* 
+.toparchdesign{
+    margin-bottom: 0;
+}
+
+.bottomarchdesign{
+    margin-top: 0;
+}
+
+.topdes{
+    margin-bottom: 0;
+}
+
+.botdes{
+    margin-top: 0;
+}
+
+.yfhgvhvjhvjhb{
+    background-color: hsl(207, 100%, 98%);
+    margin-top: 0;
+}
+ */
